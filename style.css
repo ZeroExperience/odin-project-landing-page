@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
