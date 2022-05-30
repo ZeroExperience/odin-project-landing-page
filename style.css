@@ -1,6 +1,9 @@
 header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding: 0 128px 64px 128px;
+    flex: 1 0 auto;
 }
 
 body {
@@ -10,5 +13,132 @@ body {
 
 footer {
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: flex-end;
+    background-color: #1f2937;
+    color: white;
+}
+
+button {
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+    width: fit-content;
+    padding: 4px 16px;
+}
+
+.top-of-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+#announcement {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+#under-main-title, .links {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.bottom-of-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bottom-of-header .text {
+    display: flex;
+    flex-direction: column;
+    padding-right: 32px;
+}
+
+#header-image {
+    background-color: lightgrey;
+    color: white;
+    text-align: center;
+}
+
+.body1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.body3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.signup-bottom .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.signup-bottom .right .signup {
+    margin-left: 32px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+}
+
+.image1, .image2, .image3, .image4 {
+    display: flex;
+    flex-direction: column;
+}
+
+#image1, #image2, #image3, #image4 {
+    border: 2px;
+    border-color: #3882f6;
+}
+
+a:link {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0 8px;
+}
+
+a:visited {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
 }
