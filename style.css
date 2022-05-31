@@ -33,6 +33,7 @@ button {
     border-radius: 6px;
     border-style: solid;
     font-weight: 600;
+    min-width: 125px;
 }
 
 .top-of-header {
