@@ -135,6 +135,8 @@ button {
 
 .signup-bottom .left .top {
     font-weight: bold;
+    font-size: 18px;
+    max-width: 800px;
 }
 
 .signup-bottom .right {
